@@ -2,7 +2,6 @@ apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
   name: helloworld
-  namespace: dev
 spec:
   minReadySeconds: 5
   replicas: 2
